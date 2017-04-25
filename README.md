@@ -87,6 +87,12 @@ Para executar a aplicação Laravel localmente, executar o comando abaixo:
 $ php artisan serve
 ```
 
+Para instalar as dependências de front e compilar os assets, executar o comando abaixo:
+
+```bash
+$ yarn && yarn run dev
+```
+
 Conta de testes da aplicação:
 ```
 Email: test@melhorenvio.com.br
