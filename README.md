@@ -27,7 +27,7 @@ Descrição:
 
 A documentação da api do Melhor Envio pode ser obtida em https://api.melhorenvio.com.br/v1/docs, além disso há um exemplo de calculadora em http://www.melhorenvio.com.br/cotar
 
-Informações a respeito de uma coordenada podem ser obtidsa como no exemplo abaixo:
+Informações a respeito de uma coordenada podem ser obtidas como no exemplo abaixo:
 
 https://maps.googleapis.com/maps/api/geocode/json?latlng=35.689487,139.691706
 
