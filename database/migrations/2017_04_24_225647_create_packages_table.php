@@ -16,6 +16,7 @@ class CreatePackagesTable extends Migration
         Schema::create('packages', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id');
+            $table->string('label', 24);
             $table->decimal('width');
             $table->decimal('height');
             $table->decimal('length');

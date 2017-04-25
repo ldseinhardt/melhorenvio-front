@@ -25,6 +25,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 
 $factory->define(App\Package::class, function (Faker\Generator $faker) {
     return [
+        'label' => str_limit($faker->sentence(2), 24, false),
         'width' => $faker->numberBetween(12, 30),
         'height' => $faker->numberBetween(4, 30),
         'length' => $faker->numberBetween(17, 30),
