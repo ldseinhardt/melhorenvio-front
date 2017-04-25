@@ -1,5 +1,12 @@
+/bower_components
 /node_modules
+/public/build
+/public/css
+/public/fonts
+/public/images/vendor
 /public/hot
+/public/js
+/public/mix-manifest.json
 /public/storage
 /storage/*.key
 /vendor
@@ -9,3 +16,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 .env
+.DS_Store
+*~
+yarn.lock
+composer.lock

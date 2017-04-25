@@ -1,5 +1,23 @@
+# Autodetect text files
 * text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
 *.css linguist-vendored
+*.less linguist-vendored
 *.scss linguist-vendored
-*.js linguist-vendored
-CHANGELOG.md export-ignore
+*.php text
+*.js text
+*.vue text
+*.json text
+*.txt text
+*.svg text
+*.jpg binary
+*.png binary
+*.gif binary
+*.otf binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
