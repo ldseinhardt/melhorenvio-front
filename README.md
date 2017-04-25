@@ -31,6 +31,16 @@ Informações a respeito de uma coordenada podem ser obtidsa como no exemplo aba
 
 https://maps.googleapis.com/maps/api/geocode/json?latlng=35.689487,139.691706
 
+
+| Método | Endpoint           | Descrição |
+|--------|--------------------|-----------|
+| GET    | /api/packages      | Retorna todos os pacotes dos usuário logado |
+| GET    | /api/packages/{id} | Retorna os dados do pacote com o id informado |
+| POST   | /api/packages      | Cria um pacote novo, passar no corpo: label, width, height, length, weight |
+| PUT    | /api/packages/{id} | Atualiza o pacote com o id informado, passar no corpo: label, width, height, length, weight |
+| DELETE | /api/packages/{id} | Remove o pacote com o id informado |
+
+
 ---
 
 Para realizar este teste, você deve fazer um `fork` deste projeto no github e ao término realizar um `pull request` com a sua solução.
